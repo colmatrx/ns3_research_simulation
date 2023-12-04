@@ -4,39 +4,20 @@ using namespace std;
 
 	//Task class constructors
 	
-	Task::Task(string TaskID, string TaskTimestamp, string serverID, int serverFlag){	//constructor with 4 parameters, exlcuding serverResult and TaskVotedResult.	
+	Task::Task(int TaskID, int taskFeature[4], int poisonedTaskFlag, string serverID, int colludinsServerFlag){	//constructor with all Task properties
 	
-		this->TaskID = TaskID;
-		this->TaskTimestamp = TaskTimestamp;
-		this->TaskVotedResult = "";
+		this->TaskID = TaskID;		
+		this->taskFeature[0] = 0;
+		this->taskFeature[1] = 0;
+		this->taskFeature[2] = 0;
+		this->taskFeature[3] = 0;
+		this->poisonedTaskFlag = poisonedTaskFlag;	
 		this->server.serverID = serverID;
-		this->server.serverResult = "";
-		this->server.serverFlag = serverFlag;
+		this->server.colludingServerFlag = colludinsServerFlag;	
 	}
 	
-	Task::Task(string TaskID, string TaskTimestamp, string serverID, string serverResult, int serverFlag){	//constructor with 5 parameters, exlcuding TaskVotedResult.	
+	Task::Task(int TaskID, string serverID){	//constructor with 2 parameters
 	
 		this->TaskID = TaskID;
-		this->TaskTimestamp = TaskTimestamp;
-		this->TaskVotedResult = "";
 		this->server.serverID = serverID;
-		this->server.serverResult = serverResult;
-		this->server.serverFlag = serverFlag;
-	}
-	
-	Task::Task(string TaskID, string TaskTimestamp, string TaskVotedResult, string serverID, string serverResult, int serverFlag){ //constructor with all 6 parameters	
-	
-		this->TaskID = TaskID;
-		this->TaskTimestamp = TaskTimestamp;
-		this->TaskVotedResult = TaskVotedResult;
-		this->server.serverID = serverID;
-		this->server.serverResult = serverResult;			
-		this->server.serverFlag = serverFlag;
-	}	
-		
-	//TaskToVerify class constructor
-	TaskToVerify::TaskToVerify(string TaskID, string TaskVotedResult){
-	
-		this->TaskID = TaskID;
-		this->TaskVotedResult = TaskVotedResult;
 	}

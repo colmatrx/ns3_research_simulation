@@ -4,46 +4,44 @@
 #include<iostream>
 #include<string>
 #include<vector>
-
+#include<time.h>
+#include <bits/stdc++.h>
+#include<set>
+#include<algorithm>
+#include<utility>
+#include <sstream>
+#include<unistd.h>		//needed for sleep() function
+#include <iterator>
 using namespace std;
 
 class Servers{
 	
 	public:
 	string serverID;
-	string serverResult;
-	int serverFlag;
-};	//end of Servers class
+	int colludingServerFlag;	//1 for Colluding server, 0 for Benign server
+	//string serverResult;
+	//int serverFlag;
+};//end of Servers class
+
 
 class Task{
 
 	//class variables	
 	public:
-	string TaskID;
-	string TaskTimestamp;
-	string TaskVotedResult;
+	int TaskID;
+	int taskFeature[4];	//to hold four task features
+	int poisonedTaskFlag;	//1 for poisoned task, 0 for non-poisoned task
+	//string TaskTimestamp;
+	//string TaskVotedResult;
 	Servers server;	//an object of the class Servers above
 	
 	//class constructor declarations
 	
-	Task(string TaskID, string TaskTimestamp, string serverID, int serverFlag);	//constructor with 4 parameters, exlcuding serverResult and TaskVotedResult.		
+	Task(int TaskID, string serverID);	//constructor with 2 parameters	
+		
+	Task(int TaskID, int taskFeature[4], int poisonedTaskFlag, string serverID, int colludinsServerFlag);	//constructor with all Task properties
 	
-	Task(string TaskID, string TaskTimestamp, string serverID, string serverResult, int serverFlag);	//constructor with 5 parameters, exlcuding TaskVotedResult.	
-	
-	Task(string TaskID, string TaskTimestamp, string TaskVotedResult, string serverID, string serverResult, int serverFlag); //constructor with all 6 parameters	
 		
 };//end of class Task
-
-
-class TaskToVerify{	//this class is for returning an object to the function selectTaskToVerify()
-	
-	public:
-	string TaskID;
-	string TaskVotedResult;
-	
-	//class constructor
-	TaskToVerify(string TaskID, string TaskVotedResult);
-	
-};	//end of class TaskToVerify
 
 #endif
