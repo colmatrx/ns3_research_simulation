@@ -1,0 +1,1425 @@
+Waf: Entering directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (3.578s)
+UdpEchoServerApplication:UdpEchoServer(0x55ba56111500)
+UdpEchoServerApplication:UdpEchoServer(0x55ba56111e40)
+UdpEchoServerApplication:UdpEchoServer(0x55ba56112000)
+UdpEchoServerApplication:UdpEchoServer(0x55ba561121c0)
+UdpEchoClientApplication:UdpEchoClient(0x55ba560fe350)
+UdpEchoClientApplication:SetDataSize(0x55ba560fe350, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x55ba56112c70)
+UdpEchoClientApplication:SetDataSize(0x55ba56112c70, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x55ba56112ea0)
+UdpEchoClientApplication:SetDataSize(0x55ba56112ea0, 1024)
+UdpEchoServerApplication:StartApplication(0x55ba56111500)
+UdpEchoServerApplication:StartApplication(0x55ba56111e40)
+UdpEchoServerApplication:StartApplication(0x55ba56112000)
+UdpEchoServerApplication:StartApplication(0x55ba561121c0)
+UdpEchoClientApplication:StartApplication(0x55ba560fe350)
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +0ns)
+UdpEchoClientApplication:StartApplication(0x55ba56112c70)
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +0ns)
+UdpEchoClientApplication:StartApplication(0x55ba56112ea0)
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +0ns)
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +2s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +2s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +2s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +2.0078s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +2.0078s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +2.01018s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +2.01018s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +2.01161s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +2.01249s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +2.01249s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +2.01929s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +2.02098s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +3s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +3s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +3s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +3.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +3.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +3.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +3.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +3.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +3.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +3.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +3.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +3.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +4s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +4s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +4s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +4.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +4.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +4.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +4.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +4.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +4.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +4.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +4.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +4.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +5s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +5s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +5s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +5.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +5.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +5.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +5.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +5.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +5.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +5.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +5.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +5.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +6s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +6s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +6s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +6.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +6.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +6.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +6.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +6.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +6.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +6.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +6.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +6.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +7s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +7s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +7s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +7.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +7.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +7.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +7.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +7.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +7.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +7.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +7.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +7.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +8s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +8s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +8s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +8.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +8.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +8.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +8.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +8.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +8.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +8.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +8.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +8.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +9s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +9s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +9s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +9.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +9.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +9.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +9.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +9.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +9.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +9.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +9.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +9.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +10s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba560fe350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +10s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +10s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55ba56112ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +10.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +10.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +10.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +10.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +10.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +10.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +10.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +10.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +10.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55ba560fe350)
+At time +11s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:Send(0x55ba56112c70)
+At time +11s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:Send(0x55ba56112ea0)
+At time +11s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoServerApplication:HandleRead(0x55ba56111e40, 0x55ba561229c0)
+At time +11.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +11.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55ba56112000, 0x55ba56123250)
+At time +11.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +11.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55ba561121c0, 0x55ba56123ae0)
+At time +11.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +11.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55ba560fe350, 0x55ba561243d0)
+At time +11.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112c70, 0x55ba56124800)
+At time +11.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55ba56112ea0, 0x55ba56124c60)
+At time +11.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:StopApplication(0x55ba560fe350)
+UdpEchoClientApplication:StopApplication(0x55ba56112c70)
+UdpEchoClientApplication:StopApplication(0x55ba56112ea0)
+UdpEchoServerApplication:StopApplication(0x55ba56111500)
+UdpEchoServerApplication:StopApplication(0x55ba56111e40)
+UdpEchoServerApplication:StopApplication(0x55ba56112000)
+UdpEchoServerApplication:StopApplication(0x55ba561121c0)
+UdpEchoClientApplication:DoDispose(0x55ba560fe350)
+UdpEchoClientApplication:DoDispose(0x55ba56112c70)
+UdpEchoClientApplication:DoDispose(0x55ba56112ea0)
+UdpEchoServerApplication:DoDispose(0x55ba56111500)
+UdpEchoServerApplication:DoDispose(0x55ba56111e40)
+UdpEchoServerApplication:DoDispose(0x55ba56112000)
+UdpEchoServerApplication:DoDispose(0x55ba561121c0)
+UdpEchoClientApplication:~UdpEchoClient(0x55ba56112ea0)
+UdpEchoClientApplication:~UdpEchoClient(0x55ba56112c70)
+UdpEchoClientApplication:~UdpEchoClient(0x55ba560fe350)
+UdpEchoServerApplication:~UdpEchoServer(0x55ba56111500)
+UdpEchoServerApplication:~UdpEchoServer(0x55ba56111e40)
+UdpEchoServerApplication:~UdpEchoServer(0x55ba56112000)
+UdpEchoServerApplication:~UdpEchoServer(0x55ba561121c0)
+Waf: Entering directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (3.734s)
+UdpEchoServerApplication:UdpEchoServer(0x564925e6b500)
+UdpEchoServerApplication:UdpEchoServer(0x564925e6be40)
+UdpEchoServerApplication:UdpEchoServer(0x564925e6c000)
+UdpEchoServerApplication:UdpEchoServer(0x564925e6c1c0)
+UdpEchoClientApplication:UdpEchoClient(0x564925e58350)
+UdpEchoClientApplication:SetDataSize(0x564925e58350, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x564925e6cc70)
+UdpEchoClientApplication:SetDataSize(0x564925e6cc70, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x564925e6cea0)
+UdpEchoClientApplication:SetDataSize(0x564925e6cea0, 1024)
+UdpEchoServerApplication:StartApplication(0x564925e6b500)
+UdpEchoServerApplication:StartApplication(0x564925e6be40)
+UdpEchoServerApplication:StartApplication(0x564925e6c000)
+UdpEchoServerApplication:StartApplication(0x564925e6c1c0)
+UdpEchoClientApplication:StartApplication(0x564925e58350)
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +0ns)
+UdpEchoClientApplication:StartApplication(0x564925e6cc70)
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +0ns)
+UdpEchoClientApplication:StartApplication(0x564925e6cea0)
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +0ns)
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +2s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +2s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +2s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +2.0078s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +2.0078s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +2.01018s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +2.01018s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +2.01161s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +2.01249s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +2.01249s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +2.01929s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +2.02098s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +3s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +3s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +3s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +3.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +3.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +3.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +3.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +3.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +3.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +3.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +3.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +3.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +4s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +4s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +4s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +4.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +4.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +4.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +4.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +4.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +4.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +4.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +4.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +4.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +5s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +5s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +5s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +5.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +5.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +5.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +5.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +5.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +5.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +5.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +5.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +5.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +6s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +6s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +6s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +6.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +6.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +6.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +6.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +6.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +6.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +6.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +6.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +6.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +7s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +7s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +7s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +7.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +7.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +7.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +7.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +7.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +7.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +7.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +7.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +7.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +8s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +8s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +8s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +8.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +8.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +8.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +8.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +8.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +8.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +8.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +8.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +8.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +9s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +9s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +9s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +9.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +9.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +9.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +9.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +9.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +9.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +9.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +9.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +9.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +10s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e58350, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +10s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cc70, +1e+09ns)
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +10s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x564925e6cea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +10.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +10.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +10.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +10.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +10.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +10.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +10.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +10.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +10.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x564925e58350)
+At time +11s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:Send(0x564925e6cc70)
+At time +11s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:Send(0x564925e6cea0)
+At time +11s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoServerApplication:HandleRead(0x564925e6be40, 0x564925e7c9c0)
+At time +11.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +11.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x564925e6c000, 0x564925e7d250)
+At time +11.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +11.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x564925e6c1c0, 0x564925e7dae0)
+At time +11.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +11.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x564925e58350, 0x564925e7e3d0)
+At time +11.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cc70, 0x564925e7e800)
+At time +11.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x564925e6cea0, 0x564925e7ec60)
+At time +11.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:StopApplication(0x564925e58350)
+UdpEchoClientApplication:StopApplication(0x564925e6cc70)
+UdpEchoClientApplication:StopApplication(0x564925e6cea0)
+UdpEchoServerApplication:StopApplication(0x564925e6b500)
+UdpEchoServerApplication:StopApplication(0x564925e6be40)
+UdpEchoServerApplication:StopApplication(0x564925e6c000)
+UdpEchoServerApplication:StopApplication(0x564925e6c1c0)
+UdpEchoClientApplication:DoDispose(0x564925e58350)
+UdpEchoClientApplication:DoDispose(0x564925e6cc70)
+UdpEchoClientApplication:DoDispose(0x564925e6cea0)
+UdpEchoServerApplication:DoDispose(0x564925e6b500)
+UdpEchoServerApplication:DoDispose(0x564925e6be40)
+UdpEchoServerApplication:DoDispose(0x564925e6c000)
+UdpEchoServerApplication:DoDispose(0x564925e6c1c0)
+UdpEchoClientApplication:~UdpEchoClient(0x564925e6cea0)
+UdpEchoClientApplication:~UdpEchoClient(0x564925e6cc70)
+UdpEchoClientApplication:~UdpEchoClient(0x564925e58350)
+UdpEchoServerApplication:~UdpEchoServer(0x564925e6b500)
+UdpEchoServerApplication:~UdpEchoServer(0x564925e6be40)
+UdpEchoServerApplication:~UdpEchoServer(0x564925e6c000)
+UdpEchoServerApplication:~UdpEchoServer(0x564925e6c1c0)
+Waf: Entering directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/ioac86/Desktop/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (3.705s)
+UdpEchoServerApplication:UdpEchoServer(0x55676ace1500)
+UdpEchoServerApplication:UdpEchoServer(0x55676ace1e40)
+UdpEchoServerApplication:UdpEchoServer(0x55676ace2000)
+UdpEchoServerApplication:UdpEchoServer(0x55676ace21c0)
+UdpEchoClientApplication:UdpEchoClient(0x55676acce350)
+UdpEchoClientApplication:SetDataSize(0x55676acce350, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x55676ace2c70)
+UdpEchoClientApplication:SetDataSize(0x55676ace2c70, 1024)
+UdpEchoClientApplication:UdpEchoClient(0x55676ace2ea0)
+UdpEchoClientApplication:SetDataSize(0x55676ace2ea0, 1024)
+UdpEchoServerApplication:StartApplication(0x55676ace1500)
+UdpEchoServerApplication:StartApplication(0x55676ace1e40)
+UdpEchoServerApplication:StartApplication(0x55676ace2000)
+UdpEchoServerApplication:StartApplication(0x55676ace21c0)
+UdpEchoClientApplication:StartApplication(0x55676acce350)
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +0ns)
+UdpEchoClientApplication:StartApplication(0x55676ace2c70)
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +0ns)
+UdpEchoClientApplication:StartApplication(0x55676ace2ea0)
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +0ns)
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +2s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +2s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +2s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +2.0078s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +2.0078s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +2.01018s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +2.01018s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +2.01161s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +2.01249s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +2.01249s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +2.01929s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +2.02098s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +3s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +3s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +3s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +3.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +3.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +3.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +3.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +3.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +3.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +3.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +3.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +3.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +4s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +4s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +4s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +4.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +4.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +4.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +4.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +4.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +4.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +4.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +4.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +4.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +5s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +5s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +5s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +5.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +5.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +5.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +5.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +5.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +5.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +5.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +5.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +5.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +6s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +6s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +6s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +6.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +6.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +6.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +6.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +6.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +6.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +6.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +6.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +6.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +7s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +7s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +7s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +7.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +7.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +7.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +7.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +7.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +7.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +7.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +7.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +7.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +8s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +8s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +8s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +8.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +8.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +8.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +8.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +8.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +8.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +8.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +8.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +8.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +9s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +9s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +9s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +9.00378s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +9.00378s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +9.00546s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +9.00546s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +9.00715s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +9.00715s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +9.00756s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +9.00924s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +9.01093s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +10s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +10s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +10s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +10.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +10.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +10.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +10.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +10.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +10.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +10.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +10.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +10.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +11s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +11s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +11s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +11.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +11.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +11.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +11.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +11.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +11.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +11.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +11.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +11.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +12s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +12s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +12s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +12.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +12.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +12.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +12.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +12.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +12.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +12.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +12.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +12.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +13s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +13s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +13s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +13.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +13.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +13.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +13.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +13.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +13.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +13.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +13.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +13.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +14s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +14s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +14s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +14.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +14.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +14.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +14.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +14.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +14.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +14.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +14.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +14.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +15s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +15s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +15s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +15.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +15.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +15.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +15.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +15.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +15.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +15.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +15.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +15.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +16s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +16s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +16s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +16.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +16.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +16.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +16.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +16.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +16.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +16.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +16.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +16.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +17s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +17s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +17s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +17.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +17.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +17.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +17.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +17.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +17.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +17.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +17.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +17.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +18s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +18s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +18s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +18.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +18.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +18.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +18.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +18.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +18.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +18.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +18.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +18.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +19s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +19s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +19s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +19.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +19.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +19.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +19.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +19.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +19.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +19.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +19.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +19.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +20s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +20s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +20s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +20.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +20.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +20.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +20.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +20.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +20.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +20.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +20.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +20.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +21s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +21s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +21s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +21.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +21.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +21.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +21.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +21.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +21.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +21.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +21.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +21.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +22s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +22s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +22s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +22.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +22.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +22.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +22.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +22.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +22.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +22.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +22.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +22.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +23s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +23s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +23s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +23.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +23.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +23.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +23.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +23.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +23.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +23.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +23.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +23.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +24s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +24s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +24s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +24.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +24.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +24.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +24.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +24.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +24.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +24.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +24.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +24.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +25s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +25s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +25s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +25.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +25.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +25.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +25.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +25.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +25.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +25.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +25.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +25.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +26s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +26s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +26s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +26.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +26.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +26.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +26.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +26.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +26.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +26.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +26.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +26.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +27s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +27s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +27s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +27.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +27.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +27.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +27.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +27.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +27.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +27.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +27.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +27.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +28s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +28s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +28s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +28.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +28.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +28.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +28.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +28.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +28.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +28.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +28.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +28.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:Send(0x55676acce350)
+At time +29s client sent 1024 bytes to 10.1.2.2 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676acce350, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2c70)
+At time +29s client sent 1024 bytes to 10.1.2.3 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2c70, +1e+09ns)
+UdpEchoClientApplication:Send(0x55676ace2ea0)
+At time +29s client sent 1024 bytes to 10.1.2.4 port 9
+UdpEchoClientApplication:ScheduleTransmit(0x55676ace2ea0, +1e+09ns)
+UdpEchoServerApplication:HandleRead(0x55676ace1e40, 0x55676acf29c0)
+At time +29.0038s server received 1024 bytes from 10.1.1.1 port 49153
+Echoing packet
+At time +29.0038s server sent 1024 bytes to 10.1.1.1 port 49153
+UdpEchoServerApplication:HandleRead(0x55676ace2000, 0x55676acf3250)
+At time +29.0055s server received 1024 bytes from 10.1.1.1 port 49154
+Echoing packet
+At time +29.0055s server sent 1024 bytes to 10.1.1.1 port 49154
+UdpEchoServerApplication:HandleRead(0x55676ace21c0, 0x55676acf3ae0)
+At time +29.0072s server received 1024 bytes from 10.1.1.1 port 49155
+Echoing packet
+At time +29.0072s server sent 1024 bytes to 10.1.1.1 port 49155
+UdpEchoClientApplication:HandleRead(0x55676acce350, 0x55676acf43d0)
+At time +29.0076s client received 1024 bytes from 10.1.2.2 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2c70, 0x55676acf4800)
+At time +29.0092s client received 1024 bytes from 10.1.2.3 port 9
+UdpEchoClientApplication:HandleRead(0x55676ace2ea0, 0x55676acf4c60)
+At time +29.0109s client received 1024 bytes from 10.1.2.4 port 9
+UdpEchoClientApplication:StopApplication(0x55676acce350)
+UdpEchoClientApplication:StopApplication(0x55676ace2c70)
+UdpEchoClientApplication:StopApplication(0x55676ace2ea0)
+UdpEchoServerApplication:StopApplication(0x55676ace1500)
+UdpEchoServerApplication:StopApplication(0x55676ace1e40)
+UdpEchoServerApplication:StopApplication(0x55676ace2000)
+UdpEchoServerApplication:StopApplication(0x55676ace21c0)
+UdpEchoClientApplication:DoDispose(0x55676acce350)
+UdpEchoClientApplication:DoDispose(0x55676ace2c70)
+UdpEchoClientApplication:DoDispose(0x55676ace2ea0)
+UdpEchoServerApplication:DoDispose(0x55676ace1500)
+UdpEchoServerApplication:DoDispose(0x55676ace1e40)
+UdpEchoServerApplication:DoDispose(0x55676ace2000)
+UdpEchoServerApplication:DoDispose(0x55676ace21c0)
+UdpEchoClientApplication:~UdpEchoClient(0x55676ace2ea0)
+UdpEchoClientApplication:~UdpEchoClient(0x55676ace2c70)
+UdpEchoClientApplication:~UdpEchoClient(0x55676acce350)
+UdpEchoServerApplication:~UdpEchoServer(0x55676ace1500)
+UdpEchoServerApplication:~UdpEchoServer(0x55676ace1e40)
+UdpEchoServerApplication:~UdpEchoServer(0x55676ace2000)
+UdpEchoServerApplication:~UdpEchoServer(0x55676ace21c0)
